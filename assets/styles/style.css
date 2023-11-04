@@ -1,3 +1,27 @@
+/*Navbar styling*/
 .navbar-brand {
     font-size: 36px !important; 
+}
+/*Main page content styling*/
+#mainContainer {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 80%;
+}
+#mainTop {
+    display: flex;
+}
+#contentsCard {
+    margin-right: 4em;
+    min-width: 17em;
+}
+#contentsCard ul li {
+    padding: 1em;
+}
+#contentsList li a{
+    text-decoration: none;
+}
+h2, h3 {
+    font-weight: bold;
 }
