@@ -6,15 +6,15 @@
 #mainContainer {
     display: flex;
     flex-direction: column;
-    margin: auto;
-    width: 80%;
+    margin: 2em auto;
+    width: 65%;
 }
 #mainTop {
     display: flex;
 }
 #contentsCard {
     margin-right: 4em;
-    min-width: 17em;
+    min-width: 18em;   
 }
 #contentsCard ul li {
     padding: 1em;
@@ -22,6 +22,16 @@
 #contentsList li a{
     text-decoration: none;
 }
-h2, h3 {
+h2, h3, h4 {
     font-weight: bold;
+}
+.limb-pic-size {
+    height: 25em !important;
+}
+#commonsList {
+    padding: 0 0 0 1em;
+}
+
+.typesGrid {
+    width: 100%;
 }

@@ -1,150 +1,287 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cephalopods - CopyCat</title>
-    <link rel="stylesheet" href="assets/styles/style.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body>
-    <!--Header of page + hero img-->
-    <header class="m-0 p-0">
-      <div
-        class="container-fluid d-flex justify-content-between align-items-baseline bg-black"
-      >
-        <a class="navbar-brand flex-grow-1 text-white">Monterey Bay Aquarium</a>
-        <div class="d-flex justify-content-between flex-grow-1 px-3">
-          <a
-            href="#"
-            class="text-secondary text-decoration-none border-end border-secondary flex-grow-1"
-            >LOGIN</a
-          >
-          <a
-            href="#"
-            class="text-secondary text-decoration-none border-end border-secondary ps-4 flex-grow-1"
-            >FOR MEMBERS</a
-          >
-          <a href="#" class="text-secondary text-decoration-none px-4"
-            >TICKETS</a
-          >
-        </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cephalopods - CopyCat</title>
+  <link rel="stylesheet" href="assets/styles/style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+</head>
+
+<body>
+  <!--Header of page + hero img-->
+  <header class="m-0 p-0">
+    <div class="container-fluid d-flex justify-content-between align-items-baseline bg-black">
+      <a class="navbar-brand flex-grow-1 text-white" href="#">Monterey Bay Aquarium</a>
+      <div class="d-flex justify-content-between flex-grow-1 px-3">
+        <a href="#" class="text-secondary text-decoration-none border-end border-secondary flex-grow-1">LOGIN</a>
+        <a href="#" class="text-secondary text-decoration-none border-end border-secondary ps-4 flex-grow-1">FOR
+          MEMBERS</a>
+        <a href="#" class="text-secondary text-decoration-none px-4">TICKETS</a>
       </div>
-      <div class="container-fluid m-0 p-0">
-        <nav
-          class="container-fluid navbar navbar-expand-lg bg-black text-secondary pb-0"
-        >
-          <ul class="navbar-nav px-4">
-            <li class="navbar-item px-2">
-              <a href="#" class="nav-link link-light">VISIT</a>
+    </div>
+    <div class="container-fluid m-0 p-0">
+      <nav class="container-fluid navbar navbar-expand-lg bg-black text-secondary pb-0">
+        <ul class="navbar-nav px-4">
+          <li class="navbar-item px-2">
+            <a href="#" class="nav-link link-light">VISIT</a>
+          </li>
+          <li class="navbar-item px-2">
+            <a href="#" class="nav-link active link-light border-bottom border-5 border-primary"
+              aria-current="page">ANIMALS</a>
+          </li>
+          <li class="navbar-item px-2">
+            <a href="#" class="nav-link link-light">JOIN & GIVE</a>
+          </li>
+          <li class="navbar-item px-2">
+            <a href="#" class="nav-link link-light">ACT FOR THE OCEAN</a>
+          </li>
+          <li class="navbar-item px-2">
+            <a href="#" class="nav-link link-light">FOR EDUCATORS</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="fluid-container p-5 bg-primary text-white">
+      <p>
+        Animals < Animals A to Z </p>
+          <h1>Cephalopods</h1>
+    </div>
+    <div class="container-fluid m-0 p-0" id="hero">
+      <img src="assets/images/herosquid.png" alt="Cropped Mockup image" class="img-fluid" />
+    </div>
+  </header>
+  <!--Main body section of page with info content-->
+  <main>
+    <div id="mainContainer">
+      <section class="align-items-start" id="mainTop">
+        <div class="card flex-grow-1" id="contentsCard">
+          <div class="card-header">
+            On this page
+          </div>
+          <ul class="list-group list-group-flush flex-fill" id="contentsList">
+            <li class="list-group-item">
+              <a href="#mainTop">What's a cephalopod?</a>
             </li>
-            <li class="navbar-item px-2">
-              <a
-                href="#"
-                class="nav-link active link-light border-bottom border-5 border-primary"
-                aria-current="page"
-                >ANIMALS</a
-              >
+            <li class="list-group-item">
+              <a href="#anatomySec">Cephalopod anatomy - head over arms with a donut-shaped
+                brain</a>
             </li>
-            <li class="navbar-item px-2">
-              <a href="#" class="nav-link link-light">JOIN & GIVE</a>
+            <li class="list-group-item">
+              <a href="#disguiseSec">Masters of disguise</a>
             </li>
-            <li class="navbar-item px-2">
-              <a href="#" class="nav-link link-light">ACT FOR THE OCEAN</a>
+            <li class="list-group-item">
+              <a href="#shellSec">A shell of a family tree</a>
             </li>
-            <li class="navbar-item px-2">
-              <a href="#" class="nav-link link-light">FOR EDUCATORS</a>
+            <li class="list-group-item"><a href="#">Senses</a></li>
+            <li class="list-group-item">
+              <a href="#">Diet and feeding strategies</a>
+            </li>
+            <li class="list-group-item">
+              <a href="#">Types of cephalopods</a>
             </li>
           </ul>
-        </nav>
-      </div>
-      <div class="fluid-container p-5 bg-primary text-white">
-        <p>
-          Animals < Animals A to Z
-        </p>
-        <h1>Cephalopods</h1>
-      </div>
-      <div class="container-fluid m-0 p-0" id="hero">
-        <img
-          src="assets/images/herosquid.png"
-          alt="Cropped Mockup image"
-          class="img-fluid"
-        />
-      </div>
-    </header>
-    <!--Main body section of page with info content-->
-    <main>
-      <div id="mainContainer">
-        <section id="mainTop">
-          <div class="card" style="width: 22rem;" id="contentsCard">
-            <div class="card-header">
-              On this page
+        </div>
+        <div id="whatsaCeph">
+          <h2>What's a cephalopod?</h2>
+          <p class="fs-5 lh-lg">
+            A cephalopod is an animal belonging to the group Cephalopoda,
+            containing octopus, squid, cuttlefish, nautilus, and kin. The word
+            "cephalopod" is derived from Greek and means "head foot," which
+            perfectly describes animals that have eyes just above their many
+            limbs. These boneless creatures can be found exclusively in marine
+            habitats, making them the ideal inspiration for ocean lore around
+            the world. Cepahlopods have fascinated generations of people with
+            their elusive nature and captivating appearance - enticing us ever
+            closer to explore the secrets of the oceans depths.
+          </p>
+        </div>
+      </section>
+      <section id="anatomySec">
+        <div>
+          <h2>Cephalopod anatomy - head over arms with a donut-shaped brain</h2>
+          <p class="fs-5 lh-lg">If you were to rebuild yourself as an octopus, you'd take your torso, stick it atop your
+            head, and then arrange your limbs around your face. Perhaps not the most flattering look for a humna, but it
+            works perfectly for an octopus.</p>
+        </div>
+        <div>
+          <h3>Mantle</h3>
+          <p class="fs-5 lh-lg">The bag-like sac that sits above a cephalopod’s eyes doesn’t contain the brain. It’s
+            called the mantle and it holds the animal's internal organs, including its three (!) hearts, gills,
+            reproductive organs, ink sac, and more.</p>
+        </div>
+        <div>
+          <h3>Donut brain</h3>
+          <p class="fs-5 lh-lg">The brain is located behind the eyes and is shaped like a donut, wrapped around the
+            esophagus. That may be hard to wrap your brain around, but a cephalopod brain is indeed shaped like a ring,
+            and when the animal consumes food, the brain is slightly stretched as food moves through the esophagus. You
+            could say that octopus, squid, and cuttlefish always have food on the brain.</p>
+        </div>
+        <div>
+          <h3>Limbs</h3>
+          <p class="fs-5 lh-lg">Typically, arms, tentacles, or a combination of the two will extend from the
+            cephalopod’s head. The arms are distinct from tentacles in that they’re completely lined with suction cups.
+            Tentacles, on the other hand (or arm?), sometimes terminate in rounded clubs with suction cups and sometimes
+            with hooks. Cephalopods use tentacles to grab passing prey.</p>
+        </div>
+        <div>
+          <p class="fs-5 lh-lg mb-5"><strong>So which cephalopods have which kinds of limbs? </strong>An octopus has
+            eight arms and no tentacles. A squid or cuttlefish will have eight arms and two tentacles. A nautilus, being
+            very unique, has many sticky tentacles, but no arms.</strong></p>
+        </div>
+        <div class="container-fluid d-flex justify-content-around">
+          <img src="assets/images/stumpycuttlefish.png" alt="Stumpy Cuttlefish png"
+            class="img-fluid limb-pic-size px-3">
+          <img src="assets/images/chamberednautilus.png" alt="Chambered Nautilus png"
+            class="img-fluid limb-pic-size px-3">
+        </div>
+        <div class="mt-5">
+          <h3>Beak</h3>
+          <p class="fs-5 lh-lg mb-5">At the center of all these limbs is a bird-like beak used for piercing and
+            consuming food. It features a tongue-like belt of teeth called the radula. The radula is used to rasp food
+            items and break them into smaller pieces — very helpful when your food passes right through the center of
+            your brain.</p>
+        </div>
+      </section>
+      <section id="disguiseSec">
+        <div>
+          <h2>Masters of disguise</h2>
+          <p class="fs-5 lh-lg mb-4">The skin of an octopus, squid, or cuttlefish seems almost to pulse with color and
+            light. It appears electric as colors and patterns dance across it. In truth, these animals can create unique
+            displays or disappear entirely thanks to the presence of chromatophores. Chromatophores are tiny sacs of
+            pigment that can expand and contract in response to a series of environmental cues. It has been observed
+            that cephalopods don’t willfully control their color-changing ability. Instead, the skin itself acts almost
+            like an eye, taking in cues that elicit a colorful response. Cephalopods are believed to be colorblind,
+            which makes their ability to vanish into the background even more fascinating.</p>
+          <p class="fs-5 lh-lg mb-4">The ability to change colors for camouflage is crucial for protection from
+            predation. If you were an invertebrate, an animal without a backbone, you’d want to make your soft, squishy,
+            tasty body could disappear from the eyes of hungry predators. Chromatophores are responsible both for
+            disguise and for a showy display. Why would you want to advertise your presence? When mates or rivals are
+            around, flashing dazzling displays of warning or romance are particularly useful.</p>
+          <p class="fs-5 lh-lg">Whether for display or camouflage, the ability to rapidly change color is another
+            captivating feature of many cephalopods.</p>
+        </div>
+        <div>
+          <img src="assets/images/chromatophores.png" alt="Chromatophores png" class="img-fluid">
+        </div>
+        <div class="mt-5">
+          <h4>Not all cephalopods camouflage</h4>
+          <p class="fs-5 lh-lg">Camouflage is not the only way cephalopods deflect predators. The nautilus, for example,
+            has no chromatophores and relies on a hard shell for protection. In the depths of the sea, the vampire squid
+            performs a defensive “pineapple pose” and hides itself within its webbed arms.</p>
+        </div>
+      </section>
+      <section id="shellSec" class="mt-5">
+        <div>
+          <h2>A shell of a family tree</h2>
+          <p class="fs-5 lh-lg">The phylum Mollusca to which cephalopods belong is filled with creatures that have
+            distinct and lovely shells, from your average garden snail to the iridescent abalone. Yes, cephalopods are
+            related to chitons, clams, mussels, and other shelled critters! But not all mollusks have shells. Over time,
+            many cephalopods evolved to lose or reduce their shells, replacing them with other defense mechanisms. These
+            adaptations allow them to quickly change color, jet-propel themselves away from danger, or disappear in a
+            cloud of ink. Cuttlefish have a hard internal shell-like structure called a cuttlebone and squid have a more
+            flexible internal structure called a pen, both of which are used for internal support. Octopuses have no
+            shell-like structure at all. Being without a shell has its advantages, though, when you are squeezing
+            yourself into an inaccessible crevice to escape a predator.</p>
+          <p class="fs-5 lh-lg fw-bold">While cephalopods may look nothing like their shelled relatives, they do share
+            several features in common:</p>
+          <ul class="d-flex flex-column justify-content-start" id="commonsList">
+            <li class="fs-5 my-2">All mollusks have a <strong>mantle</strong>, which encloses the internal organs and
+              produces the shell.</li>
+            <li class="fs-5 my-2">The <strong>radula</strong>, the rasping tongue that scrapes food into smaller pieces,
+              can be found inside a cephalopod's beak and in the mouths of snails and other snail relatives.</li>
+            <li class="fs-5 my-2">Whether for digging down into the sand and disappearing like a clam or slowly creeping
+              along the surface like a snail, all mollusks have a <strong>foot</strong>. A cephalopods "foot" is
+              modified into arms and tentacles.</li>
+          </ul>
+        </div>
+      </section>
+      <section id="sensesSec" class="mt-5">
+        <div>
+          <h2>Senses</h2>
+          <p class="fs-5 lh-lg">Cephalopods use their suction cups to grab onto prey. The suction cups are also key to
+            helping them explore their world because they're responsible for the senses of taste and smell. Imagine how
+            different our world would be if we tasted everything our hands touched! An octopus relies on its tactile
+            smelling and tasting ability to explore the environment and seek out prey.</p>
+        </div>
+      </section>
+      <section id="dietSec" class="mt-5">
+        <div>
+          <h2>Diet and feeding strategies</h2>
+          <p class="fs-5 lh-lg">The feeding styles and diets of cephalopods are as varied as their lifestyles. Predators
+            will actively hunt fish, crustaceans, and sometimes other cephalopods, but this isn’t the only way to find
+            food. Some are scavengers and even detritivores (that consume dead organic material).</p>
+          <p class="fs-5 lh-lg">A squid uses its tentacles to snatch a passing fish. A cuttlefish creeping along
+            carefully on two of its arms would potentially whip out its tentacles to catch a shrimp it had hypnotized
+            with a flashing display of chromatophores. An octopus could plunge an arm into a crevice, taste a crab with
+            its suction cups, and extract the delicious crustacean for dinner. A nautilus on the other hand can use its
+            sticky tentacles to scavenge a dead fish, and a vampire squid uses a long sticky filament to catch marine
+            snow (organic material drifting down from the surface).</p>
+        </div>
+      </section>
+      <section id="legendSec" class="mt-5">
+        <div>
+          <h2>Living legends</h2>
+          <p class="fs-5 lh-lg">Cephalopods with all their amazing adaptations ruled the seas as top predators for
+            millions of years before the arrival of bony fishes. The earliest cephalopod fossil dates back 515 million
+            years!!</p>
+        </div>
+      </section>
+      <section id="typesSec" class="mt-5">
+        <div>
+          <h2>Types of cephalopods</h2>
+          <p class="fs-5 lh-lg">Cephalopods are mysterious, mesmerizing, and majestic! There are so many of these
+            wonderful marine invertebrates to discover. These are some of our favorites. But no matter the creature
+            featured, we always give cephalopods, eight thumbs up!</p>
+        </div>
+        <div class="container typesGrid">
+          <div class="row">
+            <div class="col">
+              <img src="assets/images/bigfinreefsquid.png" alt="Bigfin reef squid png" class="img-fluid">
             </div>
-            <ul class="list-group list-group-flush" id="contentsList">
-              <li class="list-group-item">
-                <a href="#">What's a cephalopod?</a>
-              </li>
-              <li class="list-group-item">
-                <a href="#"
-                  >Cephalopod anatomy - head over arms with a donut-shaped
-                  brain</a
-                >
-              </li>
-              <li class="list-group-item">
-                <a href="#">Masters of disguise</a>
-              </li>
-              <li class="list-group-item">
-                <a href="#">A shell of a family tree</a>
-              </li>
-              <li class="list-group-item"><a href="#">Senses</a></li>
-              <li class="list-group-item">
-                <a href="#">Diet and feeding strategies</a>
-              </li>
-              <li class="list-group-item">
-                <a href="#">Types of cephalopods</a>
-              </li>
-            </ul>
+            <div class="col">
+              <img src="assets/images/giantpacificoctopus.png" alt="Giant Pacific Octopus png" class="img-fluid">
+            </div>
+            <div class="col">
+              <img src="assets/images/flamboyantcuttlefish.png" alt="Flamboyant cuttlefish png" class="img-fluid">
+            </div>
+            <div class="col">
+              <img src="assets/images/redoctopus.png" alt="Red octopus png" class="img-fluid">
+            </div>
           </div>
-          <div id="whatsaCeph">
-            <h2>What's a cephalopod?</h2>
-            <p class="fs-5 lh-lg">
-              A cephalopod is an animal belonging to the group Cephalopoda,
-              containing octopus, squid, cuttlefish, nautilus, and kin. The word
-              "cephalopod" is derived from Greek and means "head foot," which
-              perfectly describes animals that have eyes just above their many
-              limbs. These boneless creatures can be found exclusively in marine
-              habitats, making them the ideal inspiration for ocean lore around
-              the world. Cepahlopods have fascinated generations of people with
-              their elusive nature and captivating appearance - enticing us ever
-              closer to explore the secrets of the oceans depths.
-            </p>
+          <div class="row">
+            <div class="col">
+              <img src="assets/images/wunderpus.png" alt="Wunderpus png" class="img-fluid">
+            </div>
+            <div class="col">
+              <img src="assets/images/nautilus.png" alt="Nautilus png" class="img-fluid">
+            </div>
+            <div class="col">
+              <img src="assets/images/vampiresquid.png" alt="Vampire squid png" class="img-fluid">
+            </div>
+            <div class="col">
+              <img src="assets/images/pharaohcuttlefish.png" alt="Pharaoh cuttlefish png" class="img-fluid">
+            </div>
           </div>
-        </section>
-        <section id="mainAnatomy">
-          <div>
-            <h2>Cephalopod anatomy - head over arms with a donut-shaped brain</h2>
-            <p class="fs-5 lh-lg">If you were to rebuild yourself as an octopus, you'd take your torso, stick it atop your head, and then arrange your limbs around your face. Perhaps not the most flattering look for a humna, but it works perfectly for an octopus.</p>
-          </div>
-          <div>
-            <h3>Mantle</h3>
-            <p class="fs-5 lh-lg">The bag-like sac that sits above a cephalopod’s eyes doesn’t contain the brain. It’s called the mantle and it holds the animal's internal organs, including its three (!) hearts, gills, reproductive organs, ink sac, and more.</p>
-          </div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </section>
-      </div>
-    </main>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+        </div>
+      </section>
+    </div>
+  </main>
+  <section id="related">
+    <div>
+      <h6>RELATED</h6>
+      <h2>More on cephalopods</h2>
+      <p class="fs-5">Cephalopods - octopuses and their relatives - are cool, color-changing masters of disguise.
+        Explore
+        below to learn about the lives of these animals.</p>
+    </div>
+  </section>
+  <footer></footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
